@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class test</title>
+    <meta charset="UTF-8">
+
+    <style>
+        .kvadrat {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+            float: left;
+        }
+
+        .red {
+            background: red;
+        }
+        .blue{
+            background: blue;
+        }
+        .green{
+            background: green;
+        }
+        .yellow{
+            background: yellow;
+        }
+         .other {
+             width: 300px;
+             height: 300px;
+             background: blue;
+             border: 1px solid #000;
+             border-radius: 300px;
+             float: left;
+
+         }
+        .forma {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            float: left;
+        }
+        .purple {
+            background: purple;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="kvadrat red"></div>
+<div class="kvadrat blue"></div>
+<div class="kvadrat green"></div>
+<div class="kvadrat yellow"></div>
+<div class="other"></div>
+
+<script>
+
+    var body  =document.body;
+    var other = document.getElementsByClassName('other')[0];
+
+    other.addEventListener('click', function(){
+        other.classList.remove('other');
+        other.classList.add('purple');
+        other.classList.add('forma');
+    },false);
+
+
+
+</script>
+</body>
+</html>

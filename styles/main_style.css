@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+.chet {
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+}
+.send {
+    position: relative;
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+
+    font-size: 20px;
+}
+.result {
+    position: relative;
+    width: 400px;
+    /*text-align: center; */
+    height: 50px;
+    font-size: 25px;
+    /*border: 1px solid #000; */
+    margin: 0 auto;
+    border-radius: 5px;
+    line-height: 50px;
+    margin-top: 20px;
+
+}
+.tableResult {
+    /*border:1px solid #000; */
+    margin: 0 auto;
+}
+.tableResult td {
+    border: 1px solid #000;
+    width:400px;
+}
+.tableResult .numbercell {
+    width: 50px;
+}
+.tableResult .copy {
+    width: 120px;
+    border: 0px;
+}
+.tableResult .copy button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
